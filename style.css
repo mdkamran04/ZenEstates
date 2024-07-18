@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 65%;
+    height: 85vh;
+    border: 1px solid black;
+    margin: auto;
+    transition: 0.3s linear;
+}
+
+header nav {
+    width: 100%;
+    height: 7%;
+    margin: 5px auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header nav .right-box {
+    display: flex;
+    align-items: center;
+
+}
+
+header nav .right-box ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav .right-box ul li {
+    padding: 10px;
+
+}
+
+header nav .right-box ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s linear;
+}
+
+header nav .right-box ul li a:hover {
+    color: black;
+}
+
+header nav .right-box .acount-box {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+
+header nav .right-box .acount-box i {
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s linear;
+
+}
+
+header nav .right-box .acount-box i:hover {
+    color: rgba(128, 128, 128, 0.692);
+}
+
+header .content{
+    position: relative;
+    width: 100%;
+    height: 93%;
+    border: 1px solid black;
+    z-index: 5;
+}
+header .content::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: url();
+}
